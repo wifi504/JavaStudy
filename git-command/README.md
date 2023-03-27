@@ -8,14 +8,14 @@ Version Control Tools - Git
 
 ## 1. Git 常用命令
 
-> 以下将列举常用的所有命令，你可以点击小火箭[🚀](#1. Git 常用命令)快速前往该命令的详情位置。
+> 以下将列举常用的所有命令，你可以点击小火箭[🚀](#1-Git-常用命令)快速前往该命令的详情位置。
 
 ### 1.1 设置常用操作
 
 | 命令名称                                   | 作用                             |
 | :----------------------------------------- | -------------------------------- |
-| git config --global user.name `你的用户名` | 设置用户签名[🚀](#2.1 git config) |
-| git config --global user.email `你的邮箱`  | 设置用户签名[🚀](#2.1 git config) |
+| git config --global user.name `你的用户名` | 设置用户签名[🚀](#21-git-config) |
+| git config --global user.email `你的邮箱`  | 设置用户签名[🚀](#21-git-config) |
 
 - 签名的作用是**区分**不同操作者身份。
 - 用户的签名信息在每一个版本的提交信息（commit）中能够看到，以此确认本次提交是谁做的。
@@ -26,34 +26,35 @@ Version Control Tools - Git
 
 | 命令名称                            | 作用                                                         |
 | :---------------------------------- | :----------------------------------------------------------- |
-| git init                            | 初始化本地库[🚀](#2.2 git init)                               |
-| git status                          | 查看本地库状态[🚀](#2.5 git status)                           |
-| git add `文件名`                    | 添加到暂存区[🚀](#2.4 git add)                                |
-| git rm --cached `文件名`            | 从暂存区移除[🚀](#2.9 git rm)                                 |
-| git commit -m "`日志信息`" `文件名` | 提交到本地库[🚀](#2.7 git commit)                             |
-| git reflog                          | 查看历史记录（版本）[🚀](#2.11 git log & git reflog)          |
-| git log                             | 查看版本详细信息[🚀](#2.11 git log & git reflog)              |
-| git reset --hard `版本号`           | 版本穿梭[🚀](#2.8 git reset)                                  |
-| git tag `标签名`                    | 为快照打上标签，常用标记版本（重要里程的commit）[🚀](#2.20 git tag) |
+| git init                            | 初始化本地库[🚀](#22-git-init)                               |
+| git status                          | 查看本地库状态[🚀](#25-git-status)                           |
+| git add `文件名`                    | 添加到暂存区[🚀](#24-git-add)                                |
+| git rm --cached `文件名`            | 从暂存区移除[🚀](#29-git-rm)                                 |
+| git commit -m "`日志信息`" `文件名` | 提交到本地库[🚀](#27-git-commit)                             |
+| git reflog                          | 查看历史记录（版本）[🚀](#211-git-log-&-git-reflog)          |
+| git log                             | 查看版本详细信息[🚀](#211-git-log-&-git-reflog)              |
+| git reset --hard `版本号`           | 版本穿梭[🚀](#28-git-reset)                                  |
+| git tag `标签名`                    | 为快照打上标签，常用标记版本（重要里程的commit）[🚀](#220-git-tag) |
 
 ### 1.3 分支常用操作
 
-| 命令名称              | 作用                                             |
-| :-------------------- | :----------------------------------------------- |
-| git branch `分支名`   | 创建分支[🚀](#2.17 git branch)                    |
-| git branch -v         | 查看分支[🚀](#2.17 git branch)                    |
-| git checkout `分支名` | 切换分支[🚀](#2.18 git checkout)                  |
-| git merge `分支名`    | 把指定的分支合并到当前分支上[🚀](#2.19 git merge) |
+| 命令名称               | 作用                                            |
+| :--------------------- | :---------------------------------------------- |
+| git branch `分支名`    | 创建分支[🚀](#217-git-branch)                    |
+| git branch -v          | 查看分支[🚀](#217-git-branch)                    |
+| git checkout `分支名`  | 切换分支[🚀](#218-git-checkout)                  |
+| git switch -c `分支名` | 切换分支（新）[🚀](#221-git-switch)              |
+| git merge `分支名`     | 把指定的分支合并到当前分支上[🚀](#219-git-merge) |
 
 ### 1.4 上云常用操作
 
 | 命令名称                         | 作用                                                         |
 | :------------------------------- | :----------------------------------------------------------- |
-| git remote -v                    | 查看当前所有远程地址别名[🚀](#2.13 git remote & ssh)          |
-| git remote add `别名` `远程地址` | 起别名，相当于定义常量存储地址[🚀](#2.13 git remote & ssh)    |
-| git push `地址` `分支`           | 推送本地分支上的内容到远程仓库，建议使用别名[🚀](#2.16 git push) |
-| git clone `地址`                 | 将远程仓库的内容克隆到本地[🚀](#2.3 git clone)                |
-| git pull `地址` `远程分支名`     | 将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并，建议使用别名[🚀](#2.15 git pull) |
+| git remote -v                    | 查看当前所有远程地址别名[🚀](#213-git-remote-&-ssh)          |
+| git remote add `别名` `远程地址` | 起别名，相当于定义常量存储地址[🚀](#213-git-remote-&-ssh)    |
+| git push `地址` `分支`           | 推送本地分支上的内容到远程仓库，建议使用别名[🚀](#216-git-push) |
+| git clone `地址`                 | 将远程仓库的内容克隆到本地[🚀](#23-git-clone)                |
+| git pull `地址` `远程分支名`     | 将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并，建议使用别名[🚀](#215-git-pull) |
 
 ## 2. 命令详情
 
@@ -508,3 +509,18 @@ git tag -a <tagname> -m "<注解内容>"
 ```shell
 git tag -a <tagname> 85fc7e7
 ```
+
+### 2.21 git switch
+
+新版本中，可以使用以下命令切换分支
+
+```shell
+git switch <branchname>
+```
+
+如果想先创建新分支再切换，可以添加 **-c** 参数
+
+```shell
+git switch -c <branchname>
+```
+
