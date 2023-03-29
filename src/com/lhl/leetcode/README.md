@@ -48,6 +48,16 @@ My code: [powxN/](powxN/)
 
 
 
+### 149. 直线上最多的点数 [https://leetcode.cn/problems/max-points-on-a-line/](https://leetcode.cn/problems/max-points-on-a-line/)
+
+给你一个数组 `points` ，其中 `points[i] = [xi, yi]` 表示 **X-Y** 平面上的一个点。求最多有多少个点在同一条直线上。
+
+My code: [max-points-on-a-line/](max-points-on-a-line/)
+
+备注：本题花了一定的时间，原设想通过求所有存在的直线的解析式然后找最多重复进行判断，受碍于垂直于x轴直线不存在斜率，暂时告了一段落（见代码 [max-points-on-a-line/Problem149.java](max-points-on-a-line/Problem149.java)）。在学习计算机视觉的 [哈夫变换（hough）](https://github.com/wifi504/Computer-Vision/tree/master/src/houghTransform) 时，实现点-线对偶性时使用了极坐标参数方程巧妙解决了这个问题，现使用新思路实现此题解。
+
+
+
 ### 459. 重复的子字符串 [https://leetcode.cn/problems/repeated-substring-pattern/](https://leetcode.cn/problems/repeated-substring-pattern/)
 
 给定一个非空的字符串 `s` ，检查是否可以通过由它的一个子串重复多次构成。
