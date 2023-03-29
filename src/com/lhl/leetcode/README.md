@@ -54,7 +54,10 @@ My code: [powxN/](powxN/)
 
 My code: [maxPointsOnALine/](maxPointsOnALine/)
 
-备注：本题花了一定的时间，原设想通过求所有存在的直线的解析式然后找最多重复进行判断，受碍于垂直于x轴直线不存在斜率，暂时告了一段落（见代码 [maxPointsOnALine/Problem149.java](maxPointsOnALine/Problem149.java)）。在学习计算机视觉的 [哈夫变换（hough）](https://github.com/wifi504/Computer-Vision/tree/master/src/houghTransform) 时，实现点-线对偶性时使用了极坐标参数方程巧妙解决了这个问题，现使用新思路实现此题解。
+备注：
+
+- 本题花了一定的时间，原设想通过求所有存在的直线的解析式然后找最多重复进行判断，受碍于垂直于x轴直线不存在斜率，暂时告了一段落（见代码 [maxPointsOnALine/Problem149.java](maxPointsOnALine/Problem149.java)）。在学习计算机视觉的 [哈夫变换（hough）](https://github.com/wifi504/Computer-Vision/tree/master/src/houghTransform) 时，实现点-线对偶性时使用了极坐标参数方程巧妙解决了这个问题，现使用新思路实现此题解。
+- 使用了新思路 [maxPointsOnALine/Solution.java](maxPointsOnALine/Solution.java) ，成功解决了问题，但没有完全解决（这里指运行超时，不过没有问题），等学了除数组之外的数据结构再重新完成此题目。
 
 
 
