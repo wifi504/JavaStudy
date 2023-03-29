@@ -1,6 +1,6 @@
-package com.lhl.leetcode;
+package com.lhl.leetcode.maxPointsOnALine;
 
-class Solution_old {
+class Problem149 {
     public int maxPoints(int[][] points) {
 
         Tools myTools = new Tools();
