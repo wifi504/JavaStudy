@@ -18,10 +18,11 @@
 
   [src/com/lhl/leetcode](src/com/lhl/leetcode)
 
-- 面向对象阶段练习
+- 课程练习
 
-  - [杂乱的练习 src/com/lhl/oopExercise](src/com/lhl/oopExercise)
+  - [面向对象初级部分杂乱的练习 src/com/lhl/oopExercise](src/com/lhl/oopExercise)
   - [小项目 - 零钱通 src/com/lhl/project/smallchange](src/com/lhl/project/smallchange)
+  - [抽象、接口、内部类、枚举、注解 - 练习 src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework](src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework)
 
 ## 学习阶段
 
@@ -59,14 +60,18 @@
   - 代码块
   - 单例设计模式（饿汉式、懒汉式）
   - final关键字
-  
-- 抽象类
 
-- 接口
+  - 抽象类
 
-- 内部类（局部内部类、匿名内部类、成员内部类、静态内部类）
+  - 接口
 
-  > **小结**
-  >
-  > 类的五大成员：属性、方法、构造器、代码块、内部类
+  - 内部类（局部内部类、匿名内部类、成员内部类、静态内部类）
+
+    > **小结**
+    >
+    > 类的五大成员：属性、方法、构造器、代码块、内部类
+
+- 枚举类（enum关键字）
+
+- 注解、元数据
 
