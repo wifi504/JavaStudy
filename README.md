@@ -25,6 +25,8 @@
   - [抽象、接口、内部类、枚举、注解 - 练习 src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework](src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework)
   - [异常处理 src/com/lhl/exercise/exception_](src/com/lhl/exercise/exception_)
   - [包装类 src/com/lhl/exercise/wrapper_](src/com/lhl/exercise/wrapper_)
+  - [String类 src/com/lhl/exercise/string_](src/com/lhl/exercise/string_)
+  - [Math类 src/com/lhl/exercise/math_](src/com/lhl/exercise/math_)
 
 ## 学习阶段
 
@@ -80,4 +82,10 @@
 - 异常处理
 
 - 包装类（Wrapper）
+
+- String 类
+
+- Math 类
+
+- 
 
