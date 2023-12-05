@@ -27,6 +27,7 @@
   - [包装类 src/com/lhl/exercise/wrapper_](src/com/lhl/exercise/wrapper_)
   - [String类 src/com/lhl/exercise/string_](src/com/lhl/exercise/string_)
   - [Math类 src/com/lhl/exercise/math_](src/com/lhl/exercise/math_)
+  - [Arrays 类 src/com/lhl/exercise/Arrays_](src/com/lhl/exercise/Arrays_)
 
 ## 学习阶段
 
@@ -87,5 +88,5 @@
 
 - Math 类
 
-- 
+- Arrays 类
 
