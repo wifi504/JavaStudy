@@ -35,6 +35,7 @@
     - [练习题 src/com/lhl/exercise/usefulClassEx](src/com/lhl/exercise/usefulClassEx)
   - 集合
     - [Collection 接口与方法 src/com/lhl/exercise/collection_](src/com/lhl/exercise/collection_)
+    - [List 接口及其实现子类与方法 src/com/lhl/exercise/collection_/list_](src/com/lhl/exercise/collection_/list_)
 
 ## 学习阶段
 
@@ -108,5 +109,5 @@
 - 集合
 
   - Collection 接口与方法
-
+  - List 接口及其实现子类与方法
 
