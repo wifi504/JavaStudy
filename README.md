@@ -114,5 +114,5 @@
     - List 接口及其实现子类与方法 ArrayList()、LinkedList()、Vector()
     - Set 接口及其实现子类与方法 HashSet()、LinkedHashSet()
   - Map 接口与方法
-    - Map 接口及其实现子类与方法 hashMap()
+    - Map 接口及其实现子类与方法 HashMap()
 
