@@ -33,10 +33,11 @@
     - [BigInteger & BigDecimal 大数处理类 src/com/lhl/exercise/bigNum](src/com/lhl/exercise/bigNum)
     - [日期类：Date、Calendar、LocalDate src/com/lhl/exercise/date_](src/com/lhl/exercise/date_)
     - [练习题 src/com/lhl/exercise/usefulClassEx](src/com/lhl/exercise/usefulClassEx)
-  - 集合
+  - 集合框架
     - [Collection 接口与方法 src/com/lhl/exercise/collection_](src/com/lhl/exercise/collection_)
-    - [List 接口及其实现子类与方法 src/com/lhl/exercise/collection_/list_](src/com/lhl/exercise/collection_/list_)
-    - [Set 接口及其实现子类与方法 src/com/lhl/exercise/collection_/set_](src/com/lhl/exercise/collection_/set_)
+      - [List 接口及其实现子类与方法 src/com/lhl/exercise/collection_/list_](src/com/lhl/exercise/collection_/list_)
+      - [Set 接口及其实现子类与方法 src/com/lhl/exercise/collection_/set_](src/com/lhl/exercise/collection_/set_)
+    - [Map 接口与方法 src/com/lhl/exercise/map_](src/com/lhl/exercise/map_)
 
 ## 学习阶段
 
@@ -107,9 +108,11 @@
 
   - 日期类：Date、Calendar、LocalDate
 
-- 集合
+- 集合框架
 
   - Collection 接口与方法
-  - List 接口及其实现子类与方法 ArrayList()、LinkedList()、Vector()
-  - Set 接口及其实现子类与方法 HashSet()、LinkedHashSet()
+    - List 接口及其实现子类与方法 ArrayList()、LinkedList()、Vector()
+    - Set 接口及其实现子类与方法 HashSet()、LinkedHashSet()
+  - Map 接口与方法
+    - Map 接口及其实现子类与方法 hashMap()
 
