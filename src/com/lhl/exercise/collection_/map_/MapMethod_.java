@@ -1,4 +1,4 @@
-package com.lhl.exercise.map_;
+package com.lhl.exercise.collection_.map_;
 
 import java.util.HashMap;
 
