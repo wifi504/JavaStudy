@@ -34,10 +34,12 @@
     - [日期类：Date、Calendar、LocalDate src/com/lhl/exercise/date_](src/com/lhl/exercise/date_)
     - [练习题 src/com/lhl/exercise/usefulClassEx](src/com/lhl/exercise/usefulClassEx)
   - 集合框架
+    - [开发中如何选择集合实现类？ src/com/lhl/exercise/collection_/README.md](src/com/lhl/exercise/collection_/README.md)
     - [Collection 接口与方法 src/com/lhl/exercise/collection_](src/com/lhl/exercise/collection_)
       - [List 接口及其实现子类与方法 src/com/lhl/exercise/collection_/list_](src/com/lhl/exercise/collection_/list_)
       - [Set 接口及其实现子类与方法 src/com/lhl/exercise/collection_/set_](src/com/lhl/exercise/collection_/set_)
-    - [Map 接口与方法 src/com/lhl/exercise/map_](src/com/lhl/exercise/map_)
+    - [Map 接口与方法 src/com/lhl/exercise/collection_/map_](src/com/lhl/exercise/collection_/map_)
+    - [Collections 工具类 src/com/lhl/exercise/collection_/collections_](src/com/lhl/exercise/collection_/collections_)
 
 ## 学习阶段
 
@@ -112,7 +114,8 @@
 
   - Collection 接口与方法
     - List 接口及其实现子类与方法 ArrayList()、LinkedList()、Vector()
-    - Set 接口及其实现子类与方法 HashSet()、LinkedHashSet()
+    - Set 接口及其实现子类与方法 HashSet()、LinkedHashSet()、TreeSet()
   - Map 接口与方法
-    - Map 接口及其实现子类与方法 HashMap()
+    - Map 接口及其实现子类与方法 HashMap()、HashTable()、Properties()、LinkedHashMap()、TreeMap()
+  - Collections 工具类
 
