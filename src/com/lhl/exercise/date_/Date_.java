@@ -19,7 +19,7 @@ public class Date_ {
         System.out.println(date);
 
         // 格式化日期
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         System.out.println(sdf.format(date));
 
         // 通过时间戳获取时间
