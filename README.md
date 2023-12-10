@@ -20,26 +20,27 @@
 
 - 课程练习
 
-  - [面向对象初级部分杂乱的练习 src/com/lhl/oopExercise](src/com/lhl/oopExercise)
-  - [小项目 - 零钱通 src/com/lhl/project/smallchange](src/com/lhl/project/smallchange)
-  - [抽象、接口、内部类、枚举、注解 - 练习 src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework](src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework)
-  - [异常处理 src/com/lhl/exercise/exception_](src/com/lhl/exercise/exception_)
+  - 面向对象初级部分杂乱的练习 [src/com/lhl/oopExercise](src/com/lhl/oopExercise)
+  - 小项目 - 零钱通 [src/com/lhl/project/smallchange](src/com/lhl/project/smallchange)
+  - 抽象、接口、内部类、枚举、注解 - 练习 [src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework](src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework)
+  - 异常处理 [src/com/lhl/exercise/exception_](src/com/lhl/exercise/exception_)
   - 常用类
-    - [包装类 src/com/lhl/exercise/wrapper_](src/com/lhl/exercise/wrapper_)
-    - [String类 src/com/lhl/exercise/string_](src/com/lhl/exercise/string_)
-    - [Math类 src/com/lhl/exercise/math_](src/com/lhl/exercise/math_)
-    - [Arrays类 src/com/lhl/exercise/Arrays_](src/com/lhl/exercise/Arrays_)
-    - [System类 src/com/lhl/exercise/system_](src/com/lhl/exercise/system_)
-    - [BigInteger & BigDecimal 大数处理类 src/com/lhl/exercise/bigNum](src/com/lhl/exercise/bigNum)
-    - [日期类：Date、Calendar、LocalDate src/com/lhl/exercise/date_](src/com/lhl/exercise/date_)
-    - [练习题 src/com/lhl/exercise/usefulClassEx](src/com/lhl/exercise/usefulClassEx)
+    - 包装类 [src/com/lhl/exercise/wrapper_](src/com/lhl/exercise/wrapper_)
+    - String类 [src/com/lhl/exercise/string_](src/com/lhl/exercise/string_)
+    - Math类 [src/com/lhl/exercise/math_](src/com/lhl/exercise/math_)
+    - Arrays类 [src/com/lhl/exercise/Arrays_](src/com/lhl/exercise/Arrays_)
+    - System类 [src/com/lhl/exercise/system_](src/com/lhl/exercise/system_)
+    - BigInteger & BigDecimal 大数处理类 [src/com/lhl/exercise/bigNum](src/com/lhl/exercise/bigNum)
+    - 日期类：Date、Calendar、LocalDate [src/com/lhl/exercise/date_](src/com/lhl/exercise/date_)
+    - 练习题 [src/com/lhl/exercise/usefulClassEx](src/com/lhl/exercise/usefulClassEx)
   - 集合框架
-    - [开发中如何选择集合实现类？ src/com/lhl/exercise/collection_/README.md](src/com/lhl/exercise/collection_/README.md)
-    - [Collection 接口与方法 src/com/lhl/exercise/collection_](src/com/lhl/exercise/collection_)
-      - [List 接口及其实现子类与方法 src/com/lhl/exercise/collection_/list_](src/com/lhl/exercise/collection_/list_)
-      - [Set 接口及其实现子类与方法 src/com/lhl/exercise/collection_/set_](src/com/lhl/exercise/collection_/set_)
-    - [Map 接口与方法 src/com/lhl/exercise/collection_/map_](src/com/lhl/exercise/collection_/map_)
-    - [Collections 工具类 src/com/lhl/exercise/collection_/collections_](src/com/lhl/exercise/collection_/collections_)
+    - 开发中如何选择集合实现类？ [src/com/lhl/exercise/collection_/README.md](src/com/lhl/exercise/collection_/README.md)
+    - Collection 接口与方法 [src/com/lhl/exercise/collection_](src/com/lhl/exercise/collection_)
+      - List 接口及其实现子类与方法 [src/com/lhl/exercise/collection_/list_](src/com/lhl/exercise/collection_/list_)
+      - Set 接口及其实现子类与方法 [src/com/lhl/exercise/collection_/set_](src/com/lhl/exercise/collection_/set_)
+    - Map 接口与方法 [src/com/lhl/exercise/collection_/map_](src/com/lhl/exercise/collection_/map_)
+    - Collections 工具类 [src/com/lhl/exercise/collection_/collections_](src/com/lhl/exercise/collection_/collections_)
+  - 泛型 [src/com/lhl/exercise/generic_](src/com/lhl/exercise/generic_)
 
 ## 学习阶段
 
@@ -118,4 +119,5 @@
   - Map 接口与方法
     - Map 接口及其实现子类与方法 HashMap()、HashTable()、Properties()、LinkedHashMap()、TreeMap()
     - Collections 工具类
-
+  
+- 泛型
