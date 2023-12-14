@@ -119,7 +119,7 @@
     - Set 接口及其实现子类与方法 HashSet()、LinkedHashSet()、TreeSet()
   - Map 接口与方法
     - Map 接口及其实现子类与方法 HashMap()、HashTable()、Properties()、LinkedHashMap()、TreeMap()
-    - Collections 工具类
+  - Collections 工具类
   
 - 泛型
 
