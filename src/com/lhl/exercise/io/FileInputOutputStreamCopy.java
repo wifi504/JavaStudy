@@ -26,7 +26,7 @@ public class FileInputOutputStreamCopy {
             // 读这个文件
             input = new FileInputStream("E:/BaiduNetdiskDownload/jdk-17_windows-x64_bin.exe");
             // 粘贴到这
-            output = new FileOutputStream("E:/lhl/javaCode/JavaStudy/testFiles/jdk17install.exe");
+            output = new FileOutputStream("testFiles/jdk17install.exe");
 
             // 一次至少拷贝1kB
             byte[] bytes = new byte[1024];

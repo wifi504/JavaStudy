@@ -14,7 +14,7 @@ public class FileInputStreamTest02 {
     public static void main(String[] args) {
         FileInputStream fis = null;
         try {
-            fis = new FileInputStream("E:/lhl/javaCode/JavaStudy/testFiles/test1.txt");
+            fis = new FileInputStream("testFiles/test1.txt");
 
             byte[] bytes = new byte[10];
             fis.read(bytes, 3, 5);

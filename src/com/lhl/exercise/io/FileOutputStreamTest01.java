@@ -31,7 +31,7 @@ public class FileOutputStreamTest01 {
         // 创建文件字节输出流对象，要覆盖源文件
         OutputStream out = null;
         try {
-            out = new FileOutputStream("E:/lhl/javaCode/JavaStudy/testFiles/test2.txt");
+            out = new FileOutputStream("testFiles/test2.txt");
 
             // 开始写
             out.write(97);

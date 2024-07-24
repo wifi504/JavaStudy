@@ -23,7 +23,7 @@ public class FileReaderTest01 {
      * */
 
     public static void main(String[] args) {
-        try (FileReader reader = new FileReader("")) {
+        try (FileReader reader = new FileReader("testFiles/test1.txt")) {
             // 开始读
             char[] chars = new char[512];
             int readCount = 0;

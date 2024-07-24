@@ -14,7 +14,7 @@ public class FileWriterTest01 {
      *
      * */
     public static void main(String[] args) {
-        try (FileWriter writer = new FileWriter("E:/lhl/javaCode/JavaStudy/testFiles/test3.txt")) {
+        try (FileWriter writer = new FileWriter("testFiles/test3.txt")) {
             // 开始写
             writer.write("hello world");
             writer.append("\n");

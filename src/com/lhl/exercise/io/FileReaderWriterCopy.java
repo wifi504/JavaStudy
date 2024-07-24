@@ -14,8 +14,8 @@ public class FileReaderWriterCopy {
      *   使用文件字符输入输出流进行文件复制，但是这种方式只适用于普通文本文件
      * */
     public static void main(String[] args) {
-        try (FileReader reader = new FileReader("E:/lhl/javaCode/JavaStudy/testFiles/test3.txt");
-             FileWriter writer = new FileWriter("E:/lhl/javaCode/JavaStudy/testFiles/test3_copy.txt")) {
+        try (FileReader reader = new FileReader("testFiles/test3.txt");
+             FileWriter writer = new FileWriter("testFiles/test3_copy.txt")) {
 
             // Copy
             char[] chars = new char[5];

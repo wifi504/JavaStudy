@@ -25,7 +25,7 @@ public class TryWithResources {
         // 测试语法
         FileInputStream in2 = null;
 
-        try (FileInputStream in = new FileInputStream("E:/lhl/javaCode/JavaStudy/testFiles/test1.txt")) {
+        try (FileInputStream in = new FileInputStream("testFiles/test1.txt")) {
             in2 = in;
         } catch (IOException e) {
             e.printStackTrace();

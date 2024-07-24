@@ -27,7 +27,7 @@ public class FileInputStreamTest01 {
         InputStream in = null;
         try {
             // 创建字节输入流对象
-            in = new FileInputStream("E:/lhl/javaCode/JavaStudy/testFiles/test1.txt");
+            in = new FileInputStream("testFiles/test1.txt");
 
             // 一个字节一个字节读取文件
             int readByte = 0;
@@ -38,7 +38,7 @@ public class FileInputStreamTest01 {
             System.out.println();
 
             // 一次读取多个字节
-            in = new FileInputStream("E:/lhl/javaCode/JavaStudy/testFiles/test1.txt");
+            in = new FileInputStream("testFiles/test1.txt");
             byte[] bytes = new byte[1024];
             int readCount = in.read(bytes);
             System.out.println("读取了" + readCount + "个字节");
