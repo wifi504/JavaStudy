@@ -1,6 +1,6 @@
 # Java SE 学习&实践
 
-“万丈高楼平地起”，边学习边练手，成就更好的自己！
+> “万丈高楼平地起”，边学习边练手，成就更好的自己！（2024.3.24）
 
 
 
@@ -42,16 +42,19 @@
     - Collections 工具类 [src/com/lhl/exercise/collection_/collections_](src/com/lhl/exercise/collection_/collections_)
   - 泛型 [src/com/lhl/exercise/generic_](src/com/lhl/exercise/generic_)
   - Java 绘图技术 [src/com/lhl/draw](src/com/lhl/draw)
+  - Java IO流 [src/com/lhl/exercise/io](src/com/lhl/exercise/io)
 
 ## 学习阶段
 
-参考：[Java 学习路线一条龙版 by 程序员鱼皮](https://github.com/liyupi/code-roadmap/blob/main/docs/roadmap/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
+参考：[Java 学习路线一条龙版 by 程序员鱼皮](https://github.com/liyupi/codefather/blob/main/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%20by%20%E7%A8%8B%E5%BA%8F%E5%91%98%E9%B1%BC%E7%9A%AE.md)
 
 ### 阶段 1：Java 入门
 
 #### 1.1 学习资源
 
 - [韩顺平 - 零基础 30 天学会 Java](https://www.bilibili.com/video/BV1fh411y7R8/)
+- [动力节点Java零基础视频教程(中部)](https://www.bilibili.com/video/BV1Eb4y1P7iq)
+- [动力节点Java零基础视频教程(下部)](https://www.bilibili.com/video/BV1p7421N7XT)
 
 #### 1.2 学习进度（进行中）
 
@@ -124,4 +127,9 @@
 - 泛型
 
 - Java 绘图技术
+
+- IO流
+
+  - FileInputStream()、FileOutputStream()、try-with-resources
+
 
