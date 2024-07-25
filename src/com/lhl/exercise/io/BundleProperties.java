@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
  * @version 1.0
  * Create Time 2024/7/25_17:14
  */
-public class BoundleProperties {
+public class BundleProperties {
     /*
      *   使用 JDK 中提供的资源绑定器来绑定属性配置文件
      * */
