@@ -140,4 +140,6 @@
   - 打印流与标准输入输出流 PrintStream()、PrintWriter()、System.out、System.in
   - 文件类 File()、实例常用方法、文件的复制与目录的递归复制
   - 属性配置文件的读取 Properties、ResourceBundle
+  - 压缩数据流 GZIPInputStream()、GZIPOutputStream()
+  - 在内存中交互的 ByteArrayOutputStream()、ByteArrayInputStream()、对象深克隆
 
