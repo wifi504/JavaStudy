@@ -130,10 +130,14 @@
 
 - IO流
 
-  - FileInputStream()、FileOutputStream()、try-with-resources
-  - FileReader()、FileWriter()、file-path(Absolute relative)
-  - BufferedInputStream()、BufferedOutputStream()、BufferedReader()、BufferedWriter()
-  - IOStreamEncoding/Decoding、DataInputStream()、DataOutputStream()
-  - ObjectInputStream()、ObjectOutputStream()、Serialize/Deserialize
-  - PrintStream()、PrintWriter()
+  - 文件字节输入输出流 FileInputStream()、FileOutputStream()
+  - JDK7+语法糖 try-with-resources
+  - 文件字符输入输出流 FileReader()、FileWriter()
+  - IDEA相对路径与绝对路径 file-path(Absolute relative)
+  - 缓冲输入输出流 BufferedInputStream()、BufferedOutputStream()、BufferedReader()、BufferedWriter()
+  - 数据编码解码输入输出流 IOStreamEncoding/Decoding、DataInputStream()、DataOutputStream()
+  - 对象序列化与反序列化输入输出流 ObjectInputStream()、ObjectOutputStream()、Serialize/Deserialize
+  - 打印流与标准输入输出流 PrintStream()、PrintWriter()、System.out、System.in
+  - 文件类 File()、实例常用方法、文件的复制与目录的递归复制
+  - 属性配置文件的读取 Properties、ResourceBundle
 
