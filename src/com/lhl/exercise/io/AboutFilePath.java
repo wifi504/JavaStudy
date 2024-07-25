@@ -20,9 +20,17 @@ public class AboutFilePath {
     public static void main(String[] args) {
         try (FileInputStream in = new FileInputStream("log")) {
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e); // 应该在这抛出异常，因为JavaStudy文件夹下没有log
+            e.printStackTrace(); // 应该在这抛出异常，因为JavaStudy文件夹下没有log
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
+        }
+
+        try {
+            // 补充，从类路径中加载资源
+            String path = Thread.currentThread().getContextClassLoader().getResource("xxx文件").getPath();
+            System.out.println(path);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
