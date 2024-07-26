@@ -142,4 +142,10 @@
   - 属性配置文件的读取 Properties、ResourceBundle
   - 压缩数据流 GZIPInputStream()、GZIPOutputStream()
   - 在内存中交互的 ByteArrayOutputStream()、ByteArrayInputStream()、对象深克隆
+  
+- 线程
+
+  - 创建线程、启动线程
+  - 线程生命周期 NEW、RUNNABLE、BLOCKED、WAITING、TIMED_WAITING、TERMINATED
+
 
