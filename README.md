@@ -147,5 +147,11 @@
 
   - 创建线程、启动线程
   - 线程生命周期 NEW、RUNNABLE、BLOCKED、WAITING、TIMED_WAITING、TERMINATED
-
+  - 阻塞线程 sleep()、join()
+  - 终止线程 flag
+  - 守护线程 daemon
+  - 定时任务 Timer()、TimerTask()
+  - 线程优先级 Priority
+  - 线程让位 yield()
+  - 线程安全、异步机制、同步机制 synchronized
 

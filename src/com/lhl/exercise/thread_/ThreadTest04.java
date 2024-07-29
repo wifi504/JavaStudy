@@ -10,17 +10,28 @@ public class ThreadTest04 {
      *   怎么中断线程睡眠，解除线程因sleep导致的阻塞，让其开始抢夺CPU时间片
      * */
     public static void main(String[] args) {
-        new Thread(new Runnable() {
+        Thread t = new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
                     Thread.sleep(1000 * 60 * 60 * 24 * 365L);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    // e.printStackTrace();
+                    System.out.println("知道了，这就起床");
                 }
 
                 System.out.println(Thread.currentThread().getName() + "起来干活了");
             }
-        }).start();
+        });
+
+        t.start();
+
+        try {
+            Thread.sleep(5 * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        t.interrupt();
     }
 }
