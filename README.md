@@ -153,5 +153,7 @@
   - 定时任务 Timer()、TimerTask()
   - 线程优先级 Priority
   - 线程让位 yield()
-  - 线程安全、异步机制、同步机制 synchronized
+  - 线程安全、异步机制、同步机制 synchronized互斥锁 ReentrantLock可重入锁
+  - 线程死锁
+  - 线程通信 wait()、notify()、notifyAll()
 

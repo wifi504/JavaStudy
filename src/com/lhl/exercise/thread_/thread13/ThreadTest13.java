@@ -25,6 +25,8 @@ public class ThreadTest13 {
      *          则占有这把锁，只要能占有obj对象的对象锁，就有权力进入同步代码块执行代码
      *          当t1线程执行完同步代码块之后，会释放之前占有的对象锁
      *          同样，t2线程抢到CPU时间片之后，也开始执行，也会去找共享对象obj的对象锁
+     *      4. synchronized 是互斥锁
+     *          还可以使用 Lock 来实现线程安全，Lock是接口，new ReentrantLock() 可重入锁，更加灵活
      * */
     public static void main(String[] args) {
 
