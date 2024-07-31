@@ -156,4 +156,5 @@
   - 线程安全、异步机制、同步机制 synchronized互斥锁 ReentrantLock可重入锁
   - 线程死锁
   - 线程通信 wait()、notify()、notifyAll()
+  - 线程实现方式：Runnable.run()&Callable.call()的有无返回值线程、线程池提交创建
 
