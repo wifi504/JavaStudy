@@ -158,4 +158,21 @@
   - 线程死锁
   - 线程通信 wait()、notify()、notifyAll()
   - 线程实现方式：Runnable.run()&Callable.call()的有无返回值线程、线程池提交创建
+  
+- 反射
+
+  - 反射机制核心类 java.lang.Class、 java.lang.reflect.Filed、java.lang.reflect.Constructor、java.lang.reflect.Method
+  - 获得Class类的4种方式：Class.forName("全限定类名")、obj.getClass()、Class.class、systemClassLoader.loadClass()
+  - 利用反射机制读取第三方数据实例化对象
+  - 使用反射机制 Field 获取属性/字段与修改值
+  - 使用反射机制 Method 获取方法及其修饰符、返回值类型、方法名、形参列表；调用该方法
+  - 使用反射机制 Constructor 获取构造方法；利用构造方法实例化对象
+  - JVM的类加载器：BootstrapClassLoader、PlatformClassLoader、AppClassLoader
+  - 泛型
+    - 获取父类泛型 getGenericSuperclass()
+    - 获取接口泛型 getGenericInterfaces()
+    - 获取属性泛型 getDeclaredField() -> getGenericType()
+    - 获取方法泛型 getDeclaredMethod() -> getGenericParameterTypes()/getGenericReturnType()
+    - 获取构造方法泛型 getDeclaredConstructor() -> getGenericParameterTypes()
+
 
