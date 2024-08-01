@@ -43,6 +43,7 @@
   - 泛型 [src/com/lhl/exercise/generic_](src/com/lhl/exercise/generic_)
   - Java 绘图技术 [src/com/lhl/draw](src/com/lhl/draw)
   - Java IO流 [src/com/lhl/exercise/io](src/com/lhl/exercise/io)
+  - Java 线程 [src/com/lhl/exercise/thread_](src/com/lhl/exercise/thread_)
 
 ## 学习阶段
 
