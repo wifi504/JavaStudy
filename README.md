@@ -44,6 +44,8 @@
   - Java 绘图技术 [src/com/lhl/draw](src/com/lhl/draw)
   - Java IO流 [src/com/lhl/exercise/io](src/com/lhl/exercise/io)
   - Java 线程 [src/com/lhl/exercise/thread_](src/com/lhl/exercise/thread_)
+  - 反射 [src/com/lhl/exercise/reflect](src/com/lhl/exercise/reflect)
+  - 注解 [src/com/lhl/exercise/annotation](src/com/lhl/exercise/annotation)
 
 ## 学习阶段
 
@@ -174,5 +176,23 @@
     - 获取属性泛型 getDeclaredField() -> getGenericType()
     - 获取方法泛型 getDeclaredMethod() -> getGenericParameterTypes()/getGenericReturnType()
     - 获取构造方法泛型 getDeclaredConstructor() -> getGenericParameterTypes()
+
+- 注解
+
+  - JDK 内置注解
+    - @Deprecated 已过时
+    - @Override 实例方法重写
+    - @SuppressWarnings 警告抑制
+    - @FunctionalInterface 函数式接口
+
+  - 自定义注解
+  - 元注解
+    - @Retention 注解保持性
+    - @Target 注解目标
+    - @Documented 生成帮助文档
+    - @Inherited 注解继承
+    - @Repeatable 注解可重复
+
+  - 反射注解
 
 
