@@ -22,6 +22,8 @@
 
   - 面向对象初级部分杂乱的练习 [src/com/lhl/oopExercise](src/com/lhl/oopExercise)
   - 小项目 - 零钱通 [src/com/lhl/project/smallchange](src/com/lhl/project/smallchange)
+  - 小项目 - 坦克大战 [src/com/lhl/project/tankGame](src/com/lhl/project/tankGame)
+    - ver01：绘制基本坦克 [src/com/lhl/project/tankGame/ver01](src/com/lhl/project/tankGame/ver01)
   - 抽象、接口、内部类、枚举、注解 - 练习 [src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework](src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework)
   - 异常处理 [src/com/lhl/exercise/exception_](src/com/lhl/exercise/exception_)
   - 常用类
