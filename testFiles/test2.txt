@@ -1,0 +1,2 @@
+atest bytes[]cd
+abcde

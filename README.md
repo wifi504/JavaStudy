@@ -1,6 +1,6 @@
 # Java SE 学习&实践
 
-“万丈高楼平地起”，边学习边练手，成就更好的自己！
+> “万丈高楼平地起”，边学习边练手，成就更好的自己！（2024.3.24）
 
 
 
@@ -22,8 +22,6 @@
 
   - 面向对象初级部分杂乱的练习 [src/com/lhl/oopExercise](src/com/lhl/oopExercise)
   - 小项目 - 零钱通 [src/com/lhl/project/smallchange](src/com/lhl/project/smallchange)
-  - 小项目 - 坦克大战 [src/com/lhl/project/tankGame](src/com/lhl/project/tankGame)
-    - ver01：绘制基本坦克 [src/com/lhl/project/tankGame/ver01](src/com/lhl/project/tankGame/ver01)
   - 抽象、接口、内部类、枚举、注解 - 练习 [src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework](src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework)
   - 异常处理 [src/com/lhl/exercise/exception_](src/com/lhl/exercise/exception_)
   - 常用类
@@ -45,16 +43,22 @@
   - 泛型 [src/com/lhl/exercise/generic_](src/com/lhl/exercise/generic_)
   - Java 绘图技术 [src/com/lhl/draw](src/com/lhl/draw)
   - Java 事件处理机制 [src/com/lhl/event_](src/com/lhl/event_)
+  - Java IO流 [src/com/lhl/exercise/io](src/com/lhl/exercise/io)
+  - Java 线程 [src/com/lhl/exercise/thread_](src/com/lhl/exercise/thread_)
+  - 反射 [src/com/lhl/exercise/reflect](src/com/lhl/exercise/reflect)
+  - 注解 [src/com/lhl/exercise/annotation](src/com/lhl/exercise/annotation)
 
 ## 学习阶段
 
-参考：[Java 学习路线一条龙版 by 程序员鱼皮](https://github.com/liyupi/code-roadmap/blob/main/docs/roadmap/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
+参考：[Java 学习路线一条龙版 by 程序员鱼皮](https://github.com/liyupi/codefather/blob/main/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%20by%20%E7%A8%8B%E5%BA%8F%E5%91%98%E9%B1%BC%E7%9A%AE.md)
 
 ### 阶段 1：Java 入门
 
 #### 1.1 学习资源
 
 - [韩顺平 - 零基础 30 天学会 Java](https://www.bilibili.com/video/BV1fh411y7R8/)
+- [动力节点Java零基础视频教程(中部)](https://www.bilibili.com/video/BV1Eb4y1P7iq)
+- [动力节点Java零基础视频教程(下部)](https://www.bilibili.com/video/BV1p7421N7XT)
 
 #### 1.2 学习进度（进行中）
 
@@ -129,4 +133,69 @@
 - Java 绘图技术
 
 - Java 事件处理机制
+
+- IO流
+
+  - 文件字节输入输出流 FileInputStream()、FileOutputStream()
+  - JDK7+语法糖 try-with-resources
+  - 文件字符输入输出流 FileReader()、FileWriter()
+  - IDEA相对路径与绝对路径 file-path(Absolute relative)
+  - 缓冲输入输出流 BufferedInputStream()、BufferedOutputStream()、BufferedReader()、BufferedWriter()
+  - 数据编码解码输入输出流 IOStreamEncoding/Decoding、DataInputStream()、DataOutputStream()
+  - 对象序列化与反序列化输入输出流 ObjectInputStream()、ObjectOutputStream()、Serialize/Deserialize
+  - 打印流与标准输入输出流 PrintStream()、PrintWriter()、System.out、System.in
+  - 文件类 File()、实例常用方法、文件的复制与目录的递归复制
+  - 属性配置文件的读取 Properties、ResourceBundle
+  - 压缩数据流 GZIPInputStream()、GZIPOutputStream()
+  - 在内存中交互的 ByteArrayOutputStream()、ByteArrayInputStream()、对象深克隆
+  
+- 线程
+
+  - 创建线程、启动线程
+  - 线程生命周期 NEW、RUNNABLE、BLOCKED、WAITING、TIMED_WAITING、TERMINATED
+  - 阻塞线程 sleep()、join()
+  - 终止线程 flag
+  - 守护线程 daemon
+  - 定时任务 Timer()、TimerTask()
+  - 线程优先级 Priority
+  - 线程让位 yield()
+  - 线程安全、异步机制、同步机制 synchronized互斥锁 ReentrantLock可重入锁
+  - 线程死锁
+  - 线程通信 wait()、notify()、notifyAll()
+  - 线程实现方式：Runnable.run()&Callable.call()的有无返回值线程、线程池提交创建
+  
+- 反射
+
+  - 反射机制核心类 java.lang.Class、 java.lang.reflect.Filed、java.lang.reflect.Constructor、java.lang.reflect.Method
+  - 获得Class类的4种方式：Class.forName("全限定类名")、obj.getClass()、Class.class、systemClassLoader.loadClass()
+  - 利用反射机制读取第三方数据实例化对象
+  - 使用反射机制 Field 获取属性/字段与修改值
+  - 使用反射机制 Method 获取方法及其修饰符、返回值类型、方法名、形参列表；调用该方法
+  - 使用反射机制 Constructor 获取构造方法；利用构造方法实例化对象
+  - JVM的类加载器：BootstrapClassLoader、PlatformClassLoader、AppClassLoader
+  - 泛型
+    - 获取父类泛型 getGenericSuperclass()
+    - 获取接口泛型 getGenericInterfaces()
+    - 获取属性泛型 getDeclaredField() -> getGenericType()
+    - 获取方法泛型 getDeclaredMethod() -> getGenericParameterTypes()/getGenericReturnType()
+    - 获取构造方法泛型 getDeclaredConstructor() -> getGenericParameterTypes()
+
+- 注解
+
+  - JDK 内置注解
+    - @Deprecated 已过时
+    - @Override 实例方法重写
+    - @SuppressWarnings 警告抑制
+    - @FunctionalInterface 函数式接口
+
+  - 自定义注解
+  - 元注解
+    - @Retention 注解保持性
+    - @Target 注解目标
+    - @Documented 生成帮助文档
+    - @Inherited 注解继承
+    - @Repeatable 注解可重复
+
+  - 反射注解
+
 
