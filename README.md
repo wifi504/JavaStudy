@@ -190,6 +190,7 @@
     - @Override 实例方法重写
     - @SuppressWarnings 警告抑制
     - @FunctionalInterface 函数式接口
+  
 - 自定义注解
   - 元注解
     - @Retention 注解保持性
@@ -200,6 +201,13 @@
   - 反射注解
 
 - 网络编程、套接字Socket、TCP编程、UDP编程
+
+- Lambda 表达式、函数式编程
+
+  - 箭头函数基本使用
+  - 基本函数式接口：消费型`Consumer<T>`、生产型`Supplier<T>`、转换型`Function<T, R>`、判断型`Predicate<T>`
+  - 实例/静态/特殊/构造方法引用
+
 
 
 
