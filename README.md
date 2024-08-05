@@ -207,7 +207,14 @@
   - 箭头函数基本使用
   - 基本函数式接口：消费型`Consumer<T>`、生产型`Supplier<T>`、转换型`Function<T, R>`、判断型`Predicate<T>`
   - 实例/静态/特殊/构造方法引用
+  
+- Stream API
 
+  - Stream 对象的创建：Collection接口方法、Arrays类静态方法、Stream接口方法
+  - 串行流（顺序流）与并行流
+  - Stream API 中间操作
+    - 筛选/filter、映射/map、去重/distinct、排序/sorted、合并/concat、跳过/skip、截断/limit
 
-
+  - Stream API 终止操作
+    - 遍历/forEach、匹配/match、归约/reduce、收集/collect（归集、统计、分组、接合）
 
