@@ -50,6 +50,8 @@
   - 反射 [src/com/lhl/exercise/reflect](src/com/lhl/exercise/reflect)
   - 注解 [src/com/lhl/exercise/annotation](src/com/lhl/exercise/annotation)
   - 网络编程 [src/com/lhl/exercise/net](src/com/lhl/exercise/net)
+  - Lambda 表达式 [src/com/lhl/exercise/lambda](src/com/lhl/exercise/lambda)
+  - StreamAPI [src/com/lhl/exercise/streamAPI](src/com/lhl/exercise/streamAPI)
 
 ## 学习阶段
 
