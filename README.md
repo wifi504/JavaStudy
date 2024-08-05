@@ -49,6 +49,7 @@
   - Java 线程 [src/com/lhl/exercise/thread_](src/com/lhl/exercise/thread_)
   - 反射 [src/com/lhl/exercise/reflect](src/com/lhl/exercise/reflect)
   - 注解 [src/com/lhl/exercise/annotation](src/com/lhl/exercise/annotation)
+  - 网络编程 [src/com/lhl/exercise/net](src/com/lhl/exercise/net)
 
 ## 学习阶段
 
@@ -189,15 +190,16 @@
     - @Override 实例方法重写
     - @SuppressWarnings 警告抑制
     - @FunctionalInterface 函数式接口
-
-  - 自定义注解
+- 自定义注解
   - 元注解
     - @Retention 注解保持性
     - @Target 注解目标
     - @Documented 生成帮助文档
     - @Inherited 注解继承
     - @Repeatable 注解可重复
-
   - 反射注解
+
+- 网络编程、套接字Socket、TCP编程、UDP编程
+
 
 
