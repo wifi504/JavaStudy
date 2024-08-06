@@ -1,71 +1,21 @@
-# Java SE 学习&实践
+# Java 学习&实践
 
 > “万丈高楼平地起”，边学习边练手，成就更好的自己！（2024.3.24）
-
-
-
-## 实践项目
-
-- 入门 hello world
-
-  [src/Hello.java](src/Hello.java)
-
-- 面向对象编程阶段之前的小练习
-
-  [src/com/lhl/javaCode](src/com/lhl/javaCode)
-
-- 力扣刷题练手
-
-  [src/com/lhl/leetcode](src/com/lhl/leetcode)
-
-- 课程练习
-
-  - 面向对象初级部分杂乱的练习 [src/com/lhl/oopExercise](src/com/lhl/oopExercise)
-  - 小项目 - 零钱通 [src/com/lhl/project/smallchange](src/com/lhl/project/smallchange)
-  - 小项目 - 坦克大战 [src/com/lhl/project/tankGame](src/com/lhl/project/tankGame)
-    - ver01：绘制基本坦克 [src/com/lhl/project/tankGame/ver01](src/com/lhl/project/tankGame/ver01)
-  - 抽象、接口、内部类、枚举、注解 - 练习 [src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework](src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework)
-  - 异常处理 [src/com/lhl/exercise/exception_](src/com/lhl/exercise/exception_)
-  - 常用类
-    - 包装类 [src/com/lhl/exercise/wrapper_](src/com/lhl/exercise/wrapper_)
-    - String类 [src/com/lhl/exercise/string_](src/com/lhl/exercise/string_)
-    - Math类 [src/com/lhl/exercise/math_](src/com/lhl/exercise/math_)
-    - Arrays类 [src/com/lhl/exercise/Arrays_](src/com/lhl/exercise/Arrays_)
-    - System类 [src/com/lhl/exercise/system_](src/com/lhl/exercise/system_)
-    - BigInteger & BigDecimal 大数处理类 [src/com/lhl/exercise/bigNum](src/com/lhl/exercise/bigNum)
-    - 日期类：Date、Calendar、LocalDate [src/com/lhl/exercise/date_](src/com/lhl/exercise/date_)
-    - 练习题 [src/com/lhl/exercise/usefulClassEx](src/com/lhl/exercise/usefulClassEx)
-  - 集合框架
-    - 开发中如何选择集合实现类？ [src/com/lhl/exercise/collection_/README.md](src/com/lhl/exercise/collection_/README.md)
-    - Collection 接口与方法 [src/com/lhl/exercise/collection_](src/com/lhl/exercise/collection_)
-      - List 接口及其实现子类与方法 [src/com/lhl/exercise/collection_/list_](src/com/lhl/exercise/collection_/list_)
-      - Set 接口及其实现子类与方法 [src/com/lhl/exercise/collection_/set_](src/com/lhl/exercise/collection_/set_)
-    - Map 接口与方法 [src/com/lhl/exercise/collection_/map_](src/com/lhl/exercise/collection_/map_)
-    - Collections 工具类 [src/com/lhl/exercise/collection_/collections_](src/com/lhl/exercise/collection_/collections_)
-  - 泛型 [src/com/lhl/exercise/generic_](src/com/lhl/exercise/generic_)
-  - Java 绘图技术 [src/com/lhl/draw](src/com/lhl/draw)
-  - Java 事件处理机制 [src/com/lhl/event_](src/com/lhl/event_)
-  - Java IO流 [src/com/lhl/exercise/io](src/com/lhl/exercise/io)
-  - Java 线程 [src/com/lhl/exercise/thread_](src/com/lhl/exercise/thread_)
-  - 反射 [src/com/lhl/exercise/reflect](src/com/lhl/exercise/reflect)
-  - 注解 [src/com/lhl/exercise/annotation](src/com/lhl/exercise/annotation)
-  - 网络编程 [src/com/lhl/exercise/net](src/com/lhl/exercise/net)
-  - Lambda 表达式 [src/com/lhl/exercise/lambda](src/com/lhl/exercise/lambda)
-  - StreamAPI [src/com/lhl/exercise/streamAPI](src/com/lhl/exercise/streamAPI)
+>
+> 学不完，根本学不完，一轮SE结束！（2024.8.6）
 
 ## 学习阶段
 
-参考：[Java 学习路线一条龙版 by 程序员鱼皮](https://github.com/liyupi/codefather/blob/main/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%20by%20%E7%A8%8B%E5%BA%8F%E5%91%98%E9%B1%BC%E7%9A%AE.md)
-
-### 阶段 1：Java 入门
+### 阶段 1：Java SE
 
 #### 1.1 学习资源
 
+- [Java 学习路线一条龙版 by 程序员鱼皮](https://github.com/liyupi/codefather/blob/main/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%20by%20%E7%A8%8B%E5%BA%8F%E5%91%98%E9%B1%BC%E7%9A%AE.md)
 - [韩顺平 - 零基础 30 天学会 Java](https://www.bilibili.com/video/BV1fh411y7R8/)
 - [动力节点Java零基础视频教程(中部)](https://www.bilibili.com/video/BV1Eb4y1P7iq)
 - [动力节点Java零基础视频教程(下部)](https://www.bilibili.com/video/BV1p7421N7XT)
 
-#### 1.2 学习进度（进行中）
+#### 1.2 学习进度（第一轮完成）
 
 - JDK、JRE、JVM 了解与安装
 
@@ -216,7 +166,70 @@
   - 串行流（顺序流）与并行流
   - Stream API 中间操作
     - 筛选/filter、映射/map、去重/distinct、排序/sorted、合并/concat、跳过/skip、截断/limit
-
   - Stream API 终止操作
     - 遍历/forEach、匹配/match、归约/reduce、收集/collect（归集、统计、分组、接合）
 
+
+
+### 阶段 2：Java EE
+
+#### 2.1 学习资源
+
+- [JavaWeb视频教程，跟着老杜学javaweb零基础入门到精通](https://www.bilibili.com/video/BV1Z3411C7NZ)
+
+#### 2.2 学习进度
+
+- JavaWeb
+
+
+
+## 实践项目
+
+- 入门 hello world
+
+  [src/Hello.java](src/Hello.java)
+
+- 面向对象编程阶段之前的小练习
+
+  [src/com/lhl/javaCode](src/com/lhl/javaCode)
+
+- 力扣刷题练手
+
+  [src/com/lhl/leetcode](src/com/lhl/leetcode)
+
+- SE 课程练习
+
+  - 面向对象初级部分杂乱的练习 [src/com/lhl/oopExercise](src/com/lhl/oopExercise)
+  - 小项目 - 零钱通 [src/com/lhl/project/smallchange](src/com/lhl/project/smallchange)
+  - 小项目 - 坦克大战 [src/com/lhl/project/tankGame](src/com/lhl/project/tankGame)
+    - ver01：绘制基本坦克 [src/com/lhl/project/tankGame/ver01](src/com/lhl/project/tankGame/ver01)
+  - 抽象、接口、内部类、枚举、注解 - 练习 [src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework](src/com/lhl/exercise/chapter10To11_AbstractInterfaceInnerClassEnumeration_homework)
+  - 异常处理 [src/com/lhl/exercise/exception_](src/com/lhl/exercise/exception_)
+  - 常用类
+    - 包装类 [src/com/lhl/exercise/wrapper_](src/com/lhl/exercise/wrapper_)
+    - String类 [src/com/lhl/exercise/string_](src/com/lhl/exercise/string_)
+    - Math类 [src/com/lhl/exercise/math_](src/com/lhl/exercise/math_)
+    - Arrays类 [src/com/lhl/exercise/Arrays_](src/com/lhl/exercise/Arrays_)
+    - System类 [src/com/lhl/exercise/system_](src/com/lhl/exercise/system_)
+    - BigInteger & BigDecimal 大数处理类 [src/com/lhl/exercise/bigNum](src/com/lhl/exercise/bigNum)
+    - 日期类：Date、Calendar、LocalDate [src/com/lhl/exercise/date_](src/com/lhl/exercise/date_)
+    - 练习题 [src/com/lhl/exercise/usefulClassEx](src/com/lhl/exercise/usefulClassEx)
+  - 集合框架
+    - 开发中如何选择集合实现类？ [src/com/lhl/exercise/collection_/README.md](src/com/lhl/exercise/collection_/README.md)
+    - Collection 接口与方法 [src/com/lhl/exercise/collection_](src/com/lhl/exercise/collection_)
+      - List 接口及其实现子类与方法 [src/com/lhl/exercise/collection_/list_](src/com/lhl/exercise/collection_/list_)
+      - Set 接口及其实现子类与方法 [src/com/lhl/exercise/collection_/set_](src/com/lhl/exercise/collection_/set_)
+    - Map 接口与方法 [src/com/lhl/exercise/collection_/map_](src/com/lhl/exercise/collection_/map_)
+    - Collections 工具类 [src/com/lhl/exercise/collection_/collections_](src/com/lhl/exercise/collection_/collections_)
+  - 泛型 [src/com/lhl/exercise/generic_](src/com/lhl/exercise/generic_)
+  - Java 绘图技术 [src/com/lhl/draw](src/com/lhl/draw)
+  - Java 事件处理机制 [src/com/lhl/event_](src/com/lhl/event_)
+  - Java IO流 [src/com/lhl/exercise/io](src/com/lhl/exercise/io)
+  - Java 线程 [src/com/lhl/exercise/thread_](src/com/lhl/exercise/thread_)
+  - 反射 [src/com/lhl/exercise/reflect](src/com/lhl/exercise/reflect)
+  - 注解 [src/com/lhl/exercise/annotation](src/com/lhl/exercise/annotation)
+  - 网络编程 [src/com/lhl/exercise/net](src/com/lhl/exercise/net)
+  - Lambda 表达式 [src/com/lhl/exercise/lambda](src/com/lhl/exercise/lambda)
+  - StreamAPI [src/com/lhl/exercise/streamAPI](src/com/lhl/exercise/streamAPI)
+  
+- EE 课程练习
