@@ -169,35 +169,74 @@
   - Stream API 终止操作
     - 遍历/forEach、匹配/match、归约/reduce、收集/collect（归集、统计、分组、接合）
 
-
-
 ### 阶段 2：Java EE
 
 #### 2.1 学习资源
 
 - [JavaWeb视频教程，跟着老杜学javaweb零基础入门到精通](https://www.bilibili.com/video/BV1Z3411C7NZ)
+- [动力节点最新Maven教程，maven从零到精通](https://www.bilibili.com/video/BV1nx4y1U755)
+- [MyBatis视频零基础入门到进阶，MyBatis全套视频教程源码级深入详解](https://www.bilibili.com/video/BV1JP4y1Z73S)
 
 #### 2.2 学习进度
 
-- JavaWeb
+- Java EE 规范、JavaWeb
+- Servlet 规范
+  - Tomcat 服务器安装与配置、容器概念
+  - Servlet 对象生命周期
+  - HttpServlet 开发基于 HTTP 协议的 Servlet
+  - Servlet 接口
+    - jakarta.servlet.Servlet  核心接口（接口）
+    - jakarta.servlet.ServletConfig Servlet配置信息接口（接口）
+    - jakarta.servlet.ServletContext Servlet上下文接口（接口）
+    - jakarta.servlet.ServletRequest Servlet请求接口（接口）
+    - jakarta.servlet.ServletResponse Servlet响应接口（接口）
+    - jakarta.servlet.ServletException Servlet异常（类）
+    - jakarta.servlet.GenericServlet 标准通用的Servlet类（抽象类）
+  - http 包下接口
+    - jakarta.servlet.http.HttpServlet （HTTP协议专用的Servlet类，抽象类）
+    - jakarta.servlet.http.HttpServletRequest （HTTP协议专用的请求对象）
+    - jakarta.servlet.http.HttpServletResponse （HTTP协议专用的响应对象）
+  - Servlet 注解式开发
+  - 模板方法设计模式
+  - JSP
+  - EL 表达式
+  - JSTL 标签库
+  - Filter 过滤器
+  - Listener 监听器
+  - MVC 架构模式
+- Maven
+  - 基础使用管理依赖
+
+- MyBatis
+  - Java 持久层框架
+  - MyBatis 核心配置文件
+    - environment 环境
+    - transactionManager 事务管理器
+    - dataSource 数据源
+    - properties 属性资源
+    - mapper SQL映射
+
+  - MyBatis 完成 CRUD
+    - SELECT (Retrieve) 查询一条与多条数据
+    - INSERT (Create) 插入数据
+    - DELETE (Delete) 删除数据
+    - UPDATE (Update) 修改数据
+    - SQL DML 操作的命名空间问题
 
 
+<hr>
 
 ## 实践项目
 
-- 入门 hello world
-
-  [src/Hello.java](src/Hello.java)
-
-- 面向对象编程阶段之前的小练习
-
-  [src/com/lhl/javaCode](src/com/lhl/javaCode)
-
-- 力扣刷题练手
-
-  [src/com/lhl/leetcode](src/com/lhl/leetcode)
-
 - SE 课程练习
+
+  - 入门 hello world [src/Hello.java](src/Hello.java)
+
+  - 面向对象编程阶段之前的小练习 [src/com/lhl/javaCode](src/com/lhl/javaCode)
+
+
+  - 力扣刷题练手 [src/com/lhl/leetcode](src/com/lhl/leetcode)
+
 
   - 面向对象初级部分杂乱的练习 [src/com/lhl/oopExercise](src/com/lhl/oopExercise)
   - 小项目 - 零钱通 [src/com/lhl/project/smallchange](src/com/lhl/project/smallchange)
@@ -231,5 +270,5 @@
   - 网络编程 [src/com/lhl/exercise/net](src/com/lhl/exercise/net)
   - Lambda 表达式 [src/com/lhl/exercise/lambda](src/com/lhl/exercise/lambda)
   - StreamAPI [src/com/lhl/exercise/streamAPI](src/com/lhl/exercise/streamAPI)
-  
+
 - EE 课程练习
